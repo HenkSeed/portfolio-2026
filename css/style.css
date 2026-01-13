@@ -20,6 +20,7 @@ h3,
 h4,
 h5,
 h6,
+p,
 ul {
     margin: 0;
     padding: 0;
@@ -121,6 +122,97 @@ a {
 }
 
 .cv-download span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--neutral-900);
+}
+
+.portfolio .container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: var(--brand-900);
+    margin-bottom: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 8.3%; */
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.card {
+    max-width: 400px;
+}
+
+.card-text-wrapper {
+    padding: 16px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: var(--brand-900);
+    margin-bottom: 8px;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.tag-item {}
+
+.tag {
+    border: 1px solid var(--brand-500);
+    border-radius: 4px;
+    padding: 5px 8px 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--neutral-900);
+    background: #fff;
+    padding: 4px 8px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--neutral-900);
+    margin-bottom: 17px;
+}
+
+.card-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 7px 8px 5px;
+    border-bottom: 2px solid var(--brand-900);
+}
+
+.card-button-icon {}
+
+.card-button-text {
     font-weight: 700;
     font-size: 16px;
     line-height: 150%;
